@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:black ;
+    font-size: 14;
+    font-family: 'Poppins', sans-serif;
+   color:rgb(255, 255, 255);
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+h1{
+    margin-bottom:10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.form{
+    background-color: #000000;
+}
+input{
+    background-color: #343b42;
+}
+.send{
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 35px;
+    background-color: #343b42;
+    border-radius :20px; 
+    margin-top: 100px;
+    box-shadow: 0px 5px 15px 0px rgba(38, 0, 255, 0.3);
+    margin-right: 100px;
+}
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
